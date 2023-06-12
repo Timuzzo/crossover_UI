@@ -11,7 +11,7 @@
 
 .wrapper {
   min-height: 100vh;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -279,7 +279,7 @@ li{
     margin-right: 20px;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .challenges_verticaltext1 {
     writing-mode: vertical-lr;
@@ -296,7 +296,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 40px;
+    font-size: 100px;
     background: url("./images/Oval.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -321,7 +321,7 @@ li{
 
 .challenges_horizontal {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: rgb(41, 39, 39);
     font-size: 25px;
     margin-bottom: 50px;
@@ -339,7 +339,7 @@ li{
 
 .find_title {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .find_course {
