@@ -1,12 +1,145 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Krub", sans-serif;
-   background-color: #111;
-  --lightgray: #f2f2f2;
-  --purple: #b876ea;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krub', sans-serif;
+    background-color: #111;
+    --lightgray: #F2F2F2;
+    --purple: #BA60FE;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#aboutus {
+    overflow: hidden;
+    display: flex;
+    flex-flow: wrap;
+    color: var(--lightgray);
+    justify-content: center;
+    align-items: center;
+
+}
+
+#whyus {
+    overflow: hidden;
+    display: flex;
+    flex-flow: wrap;
+    color: var(--lightgray);
+    justify-content: center;
+    align-items: center;
+}
+
+#purpleus {
+    color: var(--purple);
+    margin-left: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+}
+
+button {
+    background-color: var(--purple);
+    color: var(--lightgray);
+    font-family: Oswald;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 1px;
+}
+
+#orbit {
+    position: relative;
+}
+
+#dot {
+    height: 20px;
+}
+
+.aboutheading {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#abouttext {
+    width: 40rem;
+}
+
+.aboutlist {
+    align-items: center;
+    margin-bottom: 20px;
+    /* Add your desired margin-top value here */
+}
+
+#aboutlist-left {
+    display: flex;
+    flex-direction: row;
+}
+
+#aboutlist-right {
+    display: flex;
+    flex-direction: row;
+}
+
+#aboutlist-left p {
+    padding: 20px 40px 20px 20px;
+}
+
+#aboutlist-right p {
+    padding: 20px 40px 20px 20px;
+}
+
+.square {
+    align-self: center;
+    width: 10px;
+    height: 10px;
+    background-color: var(--purple);
+    /* Replace with your desired color */
+}
+
+
+#aboutimg {
+    width: 40rem;
+    margin: 3rem;
+}
+
+
+.whytext p {
+    margin-bottom: 50px;
+}
+
+#whyimg {
+    width: 60rem;
+
+}
+
+#whyus p {
+    width: 30rem;
+}
+
+#explore {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: -300px;
+    overflow: hidden;
+}
+
+.explore {
+    position: absolute;
+    top: 0;
+    font-weight: 700;
+    font-size: 7rem;
+
+    color: #202020;
+    text-orientation: upright;
+    /* For modern browsers */
+    transform: rotate(-90deg);
+    /* For older browsers */
+
 }
 
 .wrapper {
