@@ -9,6 +9,159 @@
 }
 
 .wrapper {
-    width: 100%;
+    width: 70%;
     min-height: 100vh;
+    margin: 0 auto;
+}
+
+.challenges {
+    color: white;
+}
+
+.challenges_vertical {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.challenges_verticaltext1 {
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    font-size: 10px;
+}
+
+.challenges_verticaltext2 {
+    writing-mode: vertical-lr;
+    font-size: 10px;
+}
+
+.challenges_central_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    background: url("./images/Oval.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 50vh
+}
+
+.challenges_central_text h2 {
+    background-color: transparent;
+    text-align: center;
+}
+
+#challenges_rectangle {
+    fill: white;
+    color: white;
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.challenges_horizontal {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(41, 39, 39);
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#challenges_arrow {
+    transform: rotate(90deg);
+}
+
+.find {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.find_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find_course {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+#find {
+    font-size: 45px;
+}
+
+#inside_number {
+    color: var(--purple);
+}
+
+.find_edition {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#year {
+    font-size: 20px;
+}
+
+.find_cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.find_card {
+    border: 2px solid;
+    border-color: white;
+    max-width: 200px;
+    margin-top: 50px;
+}
+
+.find_card h4 {
+    font-size: 20px;
+}
+
+.inside_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+#find_number {
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+
+#find_button {
+    color: white;
+    padding: 10px;
+    background-color: var(--purple);
+    font-family: 'Oswald',  sans-serif;
+}
+
+#find_hr {
+    width: 30px;
+    border-color: var(--purple);
+}
+
+.find_more {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card_text {
+    font-size: 12px;
 }
