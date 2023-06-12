@@ -1,14 +1,93 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Krub',  sans-serif;
-    background-color: #111;
-    --lightgray: #F2F2F2;
-    --purple: #BA60FE;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Krub", sans-serif;
+  background-color: #111;
+  --lightgray: #f2f2f2;
+  --purple: #ba60fe;
 }
 
 .wrapper {
-    width: 100%;
-    min-height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* SUBCRIBE-SECTION */
+.rahgawi-subscribe {
+  /* border: 2px solid #f2f2f2; */
+  display: flex;
+}
+
+.rahgawi-subscribe-back-image {
+}
+.rahgawi-subcribe-contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9rem;
+  
+  
+}
+
+.rahgawi-subscribe-newsletter-text {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.rahgawi-subscribe-newsletter-text h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+#newsletter {
+  color: rgba(149, 101, 203, 0.916);
+  font-size: 47px;
+  margin-bottom: 1rem;
+}
+#lorem {
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.rahgawi-subscribe-form {
+  /* border: 2px solid red; */
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#name-input {
+  width: 100%;
+  padding: 1rem 1rem 1rem;
+  border-color: rgba(149, 101, 203, 0.916);
+  font-weight: bolder;
+}
+#mail-input {
+  min-width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1rem 1rem 1rem;
+  border-color: rgba(149, 101, 203, 0.916);
+  font-weight: bolder;
+}
+#message-text {
+  padding: 1rem 1rem;
+  border-color: rgba(149, 101, 203, 0.916);
+  font-weight: bolder;
+}
+
+.rahgawi-subscribe-form button{
+    background-color:rgba(149, 101, 203, 0.916);
+    color: white;
+    padding:1rem;
+    margin-top: 4rem;
+    margin-left: 35%;
+    border: none;
+    font-weight: bolder;
 }
