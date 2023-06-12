@@ -4,9 +4,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Krub", sans-serif;
-  background-color: #111;
+   background-color: #111;
   --lightgray: #f2f2f2;
-  --purple: #ba60fe;
+  --purple: #b876ea;
 }
 
 .wrapper {
@@ -19,15 +19,18 @@
 .rahgawi-subscribe {
   /* border: 2px solid #f2f2f2; */
   display: flex;
+  justify-content: center;
+  
 }
 
-.rahgawi-subscribe-back-image {
-}
+
 .rahgawi-subcribe-contact {
   display: flex;
   flex-direction: column;
   margin-top: 9rem;
-}
+  margin-right:6rem;
+  padding: 6rem;
+}  
 
 .rahgawi-subscribe-newsletter-text {
   /* border: 2px solid green; */
@@ -60,6 +63,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
 
 #name-input {
@@ -67,6 +71,7 @@
   padding: 1rem 1rem 1rem;
   border-color: rgba(149, 101, 203, 0.916);
   font-weight: bolder;
+ 
 }
 #mail-input {
   min-width: 100%;
@@ -75,11 +80,13 @@
   padding: 1rem 1rem 1rem;
   border-color: rgba(149, 101, 203, 0.916);
   font-weight: bolder;
+  
 }
 #message-text {
   padding: 1rem 1rem;
   border-color: rgba(149, 101, 203, 0.916);
   font-weight: bolder;
+  
 }
 
 .rahgawi-subscribe-form button{
@@ -90,6 +97,48 @@
     margin-left: 35%;
     border: none;
     font-weight: bolder;
+}
+
+/* FOOTER-SECTION */
+
+.footer-section{
+    background-color:#bA60fe;
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+}
+
+.social-icons{
+    border:2px green;
+}
+
+.About ul{
+    background-color: #bA60fe;
+}
+.About li{
+    background-color: #bA60fe;
+}
+
+.services ul{
+    background-color: #bA60fe;
+}
+.services li{
+    background-color: #bA60fe;
+}
+
+ .social #social-input{
+    border: 2px solid white;
+    padding-right: 6rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+   
 }
 
 /* Video Section - Start now */
